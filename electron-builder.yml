@@ -1,0 +1,29 @@
+appId: com.numberoneclub.game
+productName: Number One Club
+copyright: Copyright © 2026 Number One Club
+directories:
+  output: dist-win
+asar: true
+files:
+  - dist/**/*
+  - electron/**/*
+  - package.json
+win:
+  target:
+    - target: portable
+      arch:
+        - x64
+    - target: nsis
+      arch:
+        - x64
+  signAndEditExecutable: false
+portable:
+  artifactName: NumberOneClub-1.0.0-Win10-x64-Portable.exe
+nsis:
+  artifactName: NumberOneClub-1.0.0-Win10-x64-Setup.exe
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: true
+  createStartMenuShortcut: true
+  shortcutName: Number One Club

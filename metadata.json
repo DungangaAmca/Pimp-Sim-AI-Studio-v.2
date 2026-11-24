@@ -1,0 +1,8 @@
+{
+  "name": "Number One Club",
+  "description": "3D üçüncü şahıs açık şehir gece kulübü ve işletme yönetim simülasyonu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
